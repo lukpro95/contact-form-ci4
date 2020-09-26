@@ -24,7 +24,7 @@
                             <div>
                                 
                                 <?php if(isset($validation) && $validation->hasError('title')): ?>
-                                    <div class="col-12 px-0">
+                                    <div class="col-12 px-0 phpCode">
                                         <div class="alert alert-danger" role="alert">
                                             <?= $validation->getError('title') ?>
                                         </div>
@@ -48,7 +48,7 @@
                             />
 
                             <?php if(isset($validation) && $validation->hasError('firstName')): ?>
-                                    <div class="col-12 px-0">
+                                    <div class="col-12 px-0 phpCode">
                                         <div class="alert alert-danger" role="alert">
                                             <?= $validation->getError('firstName') ?>
                                         </div>
@@ -67,7 +67,7 @@
                             />
 
                             <?php if(isset($validation) && $validation->hasError('lastName')): ?>
-                                    <div class="col-12 px-0">
+                                    <div class="col-12 px-0 phpCode">
                                         <div class="alert alert-danger" role="alert">
                                             <?= $validation->getError('lastName') ?>
                                         </div>
@@ -90,7 +90,7 @@
                                 />
 
                                 <?php if(isset($validation) && $validation->hasError('email')): ?>
-                                    <div class="col-12 px-0">
+                                    <div class="col-12 px-0 phpCode">
                                         <div class="alert alert-danger" role="alert">
                                             <?= $validation->getError('email') ?>
                                         </div>
@@ -110,7 +110,7 @@
                                 />
 
                                 <?php if(isset($validation) && $validation->hasError('phone')): ?>
-                                    <div class="col-12 px-0">
+                                    <div class="col-12 px-0 phpCode">
                                         <div class="alert alert-danger" role="alert">
                                             <?= $validation->getError('phone') ?>
                                         </div>
@@ -134,7 +134,7 @@
                                 </div>
 
                                 <?php if(isset($validation) && $validation->hasError('category')): ?>
-                                    <div class="col-12 px-0">
+                                    <div class="col-12 px-0 phpCode">
                                         <div class="alert alert-danger" role="alert">
                                             <?= $validation->getError('category') ?>
                                         </div>

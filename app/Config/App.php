@@ -21,7 +21,8 @@ class App extends BaseConfig
 	| environments.
 	|
 	*/
-	public $baseURL = 'https://tech-service-form.herokuapp.com/';
+	// public $baseURL = 'https://tech-service-form.herokuapp.com/';
+	public $baseURL = 'http://localhost/';
 
 	/*
 	|--------------------------------------------------------------------------
